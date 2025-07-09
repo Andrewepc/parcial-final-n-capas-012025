@@ -5,7 +5,7 @@ Este repositorio contiene un proyecto para evaluar y practicar los conceptos de 
 ### Estudiantes
 - **Nombre del estudiante 1**: [Miguel Gavvidia] - [00199922]
 - **Nombre del estudiante 2**: [Andres Emilio Puente Cruz] - [00287919]
-- Sección: [Tu sección aquí]
+- Sección: 1
 ---
 
 ## Sistema de Soporte Técnico
