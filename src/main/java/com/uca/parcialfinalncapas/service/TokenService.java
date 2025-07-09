@@ -74,7 +74,6 @@ public class TokenService {
         return Jwts
                 .parser()
                 .setSigningKey(getSignInKey())
-                .build()
                 .parseClaimsJws(token)
                 .getBody();
     }

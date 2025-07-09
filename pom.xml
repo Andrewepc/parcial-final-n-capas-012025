@@ -87,14 +87,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
-<<<<<<< HEAD
-=======
-        <dependency>
-            <groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt</artifactId>
-            <version>0.12.6</version>
-        </dependency>
->>>>>>> 402b49b (added middleware and config)
     </dependencies>
 
     <build>
