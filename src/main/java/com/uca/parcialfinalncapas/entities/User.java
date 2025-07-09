@@ -27,16 +27,27 @@ public class User implements UserDetails {
     private String password;
     private String nombreRol; // USER o TECH
 
+<<<<<<< HEAD
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return List.of();
     }
 
+=======
+>>>>>>> 402b49b (added middleware and config)
     public String getPassword() {
         return password;
     }
 
     @Override
+<<<<<<< HEAD
+=======
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        return List.of();
+    }
+
+    @Override
+>>>>>>> 402b49b (added middleware and config)
     public String getUsername() {
         return correo;
     }
