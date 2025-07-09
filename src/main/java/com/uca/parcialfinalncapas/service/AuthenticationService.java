@@ -1,7 +1,12 @@
 package com.uca.parcialfinalncapas.service;
 
+<<<<<<< HEAD
 // import com.uca.parcialfinalncapas.dtos.LoginUserDto;
 // import com.uca.parcialfinalncapas.dtos.RegisterUserDto;
+=======
+// import com.tericcabrel.authapi.dtos.LoginUserDto;
+// import com.tericcabrel.authapi.dtos.RegisterUserDto;
+>>>>>>> 402b49b (added middleware and config)
 import com.uca.parcialfinalncapas.entities.User;
 import com.uca.parcialfinalncapas.repository.UserRepository;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -44,7 +49,13 @@ public class AuthenticationService {
     //             )
     //     );
 
+<<<<<<< HEAD
     //     return userRepository.findByEmail(input.getEmail())
     //             .orElseThrow();
     // }
+=======
+        return userRepository.findByCorreo(input.getEmail())
+                .orElseThrow();
+    }
+>>>>>>> 402b49b (added middleware and config)
 }
