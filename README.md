@@ -6,6 +6,13 @@ Este repositorio contiene un proyecto para evaluar y practicar los conceptos de 
 - **Nombre del estudiante 1**: [Miguel Gavvidia] - [00199922]
 - **Nombre del estudiante 2**: [Andres Emilio Puente Cruz] - [00287919]
 - Sección: 1
+
+## Instrucciones de Installacion
+1. Copiar los archivos `Dockerfile` y `docker_compose_tickets.yml` de la carpeta src a la raiz del la applicacion (la misma carpeta con el archivom pom.xml)
+2. Abrir una terminal con docker dentro de la raiz de la applicacion.
+3. Ejecutar el comando: `docker compose -f docker_compose_tickets.yml up`
+4. Acceder a la applicacion desde el puerto 8080.
+
 ---
 
 ## Sistema de Soporte Técnico
